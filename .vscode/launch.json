@@ -10,7 +10,7 @@
             "name": "启动程序",
             "program": "${workspaceRoot}/lib/cli.js",
             "args": [
-                "-l", "192.168.73.98:4873"
+                "-l", "0.0.0.0:4873"
             ]
         }
     ]
