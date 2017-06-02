@@ -17,7 +17,6 @@
   "dependencies": {
     "JSONStream": "1.x",
     "async": ">=0.9.0 <1.0.0-0",
-    "axios": "^0.16.1",
     "body-parser": ">=1.9.2 <2.0.0-0",
     "bunyan": ">=0.22.1 <2.0.0-0",
     "commander": ">=2.3.0 <3.0.0-0",
@@ -26,7 +25,6 @@
     "es6-shim": "0.21.x",
     "express": ">=5.0.0-0 <6.0.0-0",
     "express-json5": ">=0.1.0 <1.0.0-0",
-    "form-data": "^2.1.4",
     "handlebars": "2.x",
     "highlight.js": "8.x",
     "http-errors": ">=1.2.0",
@@ -35,6 +33,7 @@
     "lunr": ">=0.5.2 <1.0.0-0",
     "minimatch": ">=0.2.14 <2.0.0-0",
     "mkdirp": ">=0.3.5 <1.0.0-0",
+    "player-link": "^2.0.0",
     "readable-stream": "~1.1.0",
     "render-readme": ">=0.2.1",
     "request": ">=2.31.0 <3.0.0-0",

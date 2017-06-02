@@ -7411,3 +7411,201 @@ Original style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiac
     margin: 10px 0 0;
   }
 }
+body {
+  font-family: "Helvetica Neue", "Helvetica", "Lucida Grande", "Arial", "Hiragino Sans GB", "Microsoft Yahei", "WenQuanYi Micro Hei", "sans-serif";
+}
+.jumbotron {
+  margin-bottom: 0;
+}
+.list-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.list-group-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  width: 47%;
+  margin: 0 0 20px 2%;
+}
+.list-group-item:last-child {
+  margin-bottom: 20px;
+}
+.search-wraper {
+  max-width: 680px;
+  margin: 30px auto 20px;
+}
+.search-wraper .icon-search,
+.search-wraper .icon-cancel {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0 10px;
+  line-height: 52px;
+  color: #999;
+  font-size: 18px;
+  cursor: pointer;
+}
+.site-header {
+  background: url('header-bg.jpg') no-repeat;
+  background-size: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+.siteLogo {
+  position: absolute;
+  top: -12px;
+  left: 70px;
+  width: 50px;
+  height: 50px;
+  background: url('logo.png') no-repeat;
+  background-size: 100%;
+}
+.loginBtn {
+  color: #eee;
+  padding: 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.loginBtn:hover {
+  background: none;
+  color: inherit;
+}
+.navLeft {
+  min-height: 400px;
+}
+.navLeft .avatar {
+  height: 262px;
+  background: url('user.jpg') no-repeat;
+  background-size: 100%;
+}
+.package-description {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  flex: 1 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .site-header h1 {
+    font-size: 56px;
+    text-shadow: -5px 5px 0 rgba(0, 0, 0, 0.1);
+  }
+}
+.site-header p {
+  font-size: 22px;
+  font-weight: 200;
+  color: #f4f4f4;
+}
+.site-header span {
+  font-size: 14px;
+}
+.site-header .form-group {
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+.site-header .search {
+  text-align: center;
+  font-size: 16px;
+  padding: 14px 0;
+  height: auto;
+}
+.site-header .fa {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  color: #eee;
+  font-size: 24px;
+}
+.mostused-packages ul {
+  margin-bottom: 0;
+}
+.mostused-packages a {
+  -webkit-filter: grayscale(0.9);
+  opacity: 0.6;
+}
+.mostused-packages a:hover {
+  -webkit-filter: none;
+  opacity: 1;
+}
+.mostused-packages img {
+  max-height: 32px;
+}
+.mostused-packages li {
+  padding-right: 36px;
+}
+.container {
+  padding: 0;
+}
+.container .help-block {
+  display: inline-block;
+  margin-left: 32px;
+}
+.container .help-block a {
+  color: #aaa;
+}
+.packages-list-container {
+  margin-top: 50px;
+}
+.main-footer {
+  background: #202020;
+  padding: 35px 0 0;
+  color: #959595;
+}
+.widget .title {
+  position: relative;
+  margin-top: 0;
+  padding-bottom: 7px;
+  margin-bottom: 21px;
+  color: #fff;
+  font-size: 1.5em;
+  border-bottom: 1px solid #303030;
+}
+.widget .title:after {
+  content: "";
+  width: 90px;
+  height: 1px;
+  background: #e67e22;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+}
+.widget .post-title {
+  color: #959595;
+}
+.widget .post-title:hover {
+  color: #e67e22;
+  text-decoration: none;
+}
+.widget hr {
+  margin: 1em 0;
+  border-top: 1px dashed #303030;
+}
+.widget .recent-single-post {
+  border-bottom: 1px dashed #303030;
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+}
+.widget .recent-single-post .date {
+  color: #505050;
+}
+.tag-cloud a {
+  border: 1px solid #303030;
+  padding: 2px 7px;
+  color: #959595;
+  line-height: 1.5em;
+  display: inline-block;
+  margin: 0 7px 7px 0;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.tag-cloud a:hover {
+  color: #ffffff;
+  background: #e67e22;
+  border: 1px solid #e67e22;
+  text-decoration: none;
+}

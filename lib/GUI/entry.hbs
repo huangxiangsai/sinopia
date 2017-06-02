@@ -1,4 +1,4 @@
-<div class="entry" data-name="{{ name }}" data-version="{{ version }}">
+{{!--<div class="entry" data-name="{{ name }}" data-version="{{ version }}">
   <div class="row">
     <div class="col-md-8 col-sm-8">
       <h4 class="title">
@@ -17,4 +17,17 @@
       <p class="description">{{ description }}</p>
     </div>
   </div>
+</div>--}}
+
+
+<div class="list-group-item" data-name="{{ name }}" data-version="{{ version }}">
+    <h4 class="package-name">
+      <a class='name' href='javascript:void(0)'>{{ name }}/<span>By {{ author.name }}</span></a>
+
+    </h4>
+    <p class="package-description">{{ description }}</p>
+    <div class="package-extra-info">
+        <span><i class="fa fa-star"></i>92793</span>
+        <span class='version pull-right'>v {{ version }}</span>
+    </div>
 </div>
