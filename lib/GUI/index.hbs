@@ -52,12 +52,13 @@
             </div>
         </div>
     </header>
-    {{!--e: 头部--}} 
+    {{!--e: 头部--}}
 
     {{!--s: 正文--}}
     <div class="setup hidden-xs center">
         <code class="no-bg">npm set registry {{ baseUrl }}</code><br>
-        <code class="no-bg">npm adduser --registry {{ baseUrl }}</code>
+        <code class="no-bg">npm adduser --registry {{ baseUrl }}</code><br>
+        <code ><a href="https://www.npmjs.com/" target="_blank">to npmjs.com find expected packages</a></code>
     </div>
 
     <div class="packages-list-container" id="all-package">
@@ -150,8 +151,8 @@
                 </div></div>
             </div>
         </div>
-    </footer> 
-    {{!--e: 弹窗--}} 
+    </footer>
+    {{!--e: 弹窗--}}
     {{!--s: 弹窗--}}
     <div class="modal fade" id="login-form" tabindex="-1" role="dialog" aria-labelledby="login-form-label" aria-hidden="true">
         <div class="modal-dialog modal-sm">
