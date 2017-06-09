@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ name }}</title>
+
+    <link rel="icon" type="image/png" href="{{ baseUrl }}/-/static/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="{{ baseUrl }}/-/static/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="body">
+    {{!--s: 头部--}}
+    <header class="site-header jumbotron">
+        <nav class="navbar navbar-static-top main-navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="/" class="navbar-brand brand-bootcdn text-hide" onclick="_hmt.push(['_trackEvent', 'main-navbar', 'click', 'main-navbar-bootcdn'])">Xnpm</a>
+                </div>
+                
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>新手指南</h1>
+                    <p>通过新手指南，xnpm使用更简单</p>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    {{!--e: 头部--}} 
+
+    {{!--s: 正文--}}
+
+    <div class="container"  id="all-package">
+        <article class="markdown-body">
+          {{{content}}}
+        </article>
+    </div>
+    {{!--e: 正文--}}
+    {{!--s: 底部--}}
+    <footer class="main-footer hidden">
+        <div class="container">
+            
+        </div>
+    </footer> 
+    {{!--e: 弹窗--}} 
+    {{!--s: 弹窗--}}
+    <div class="modal fade" id="login-form" tabindex="-1" role="dialog" aria-labelledby="login-form-label" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h5 class="modal-title" id="login-form-label">Welcome back</h5>
+                </div>
+                <form role="form" action="{{ baseUrl }}/-/login" method="post" id="login-form" autocomplete="off">
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="user" class="sr-only">Email</label>
+                            <input name="user" id="user" class="form-control" placeholder="Username" type="text">
+                        </div>
+                        <div class="form-group">
+                            <label for="pass" class="sr-only">Password</label>
+                            <input name="pass" id="pass" class="form-control" placeholder="Password" type="password">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Log in</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    {{!--e: 弹窗--}}
+    <script src="{{ baseUrl }}/-/static/jquery.min.js"></script>
+    <script type='text/javascript' src='{{ baseUrl }}/-/static/main.js'></script>
+</body>
+
+</html>

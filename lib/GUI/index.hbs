@@ -34,8 +34,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1>Available Packages</h1>
-                    <p>稳定、快速、免费的开源项目 CDN 服务
+                    <h1>XMLY前端私有仓库</h1>
+                    <p>内部组件、模块、类库中心化管理
                         <br>
                         <span class="package-amount">共收录了
                     <strong>1765</strong>
@@ -62,12 +62,12 @@
 
     <div class="packages-list-container" id="all-package">
         <div class="container">
-            <div class="navLeft col-lg-3">
+            <div class="navLeft col-lg-3 hidden">
                 <div class="avatar">
 
                 </div>
             </div>
-            <section class="list-group packages pull-right col-lg-9" id="all-packages">
+            <section class="list-group packages" id="all-packages">
 
                 {{#each packages}} {{> entry}} {{/each}} {{#unless packages.length}}
                 <div class='no-results'>
