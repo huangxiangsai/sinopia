@@ -1,0 +1,14 @@
+{{#each packages}}
+<div class="list-group-item" data-name="{{ name }}" data-version="{{ version }}">
+  <h4 class="package-name">
+    <a class='name' href='javascript:void(0)'>{{ name }}/<span>By {{ author.name }}</span></a>
+  </h4>
+  <p class="package-description">{{ description }}</p>
+  <div class="package-extra-info">
+    <span><i class="fa fa-star"></i></span>
+    <p>更新信息：{{ updateInfo }}</p>
+    <span>标签：{{ tags }}</span>
+    <span class='version pull-right'>v {{ version }}</span>
+  </div>
+</div>
+{{/each}}
